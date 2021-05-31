@@ -27,6 +27,8 @@ async function fetchAsyncTodos() {
         if (err) {
             console.log(err)
         }
+    } finally {
+        console.log('Successfully fetched')
     }
 
 }
